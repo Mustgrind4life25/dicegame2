@@ -95,10 +95,11 @@
 	font-size: 15px;
 }
 
-@media screen (500px){
-	.container{
+@media screen and (max-width: 500px){
+	.players{
 		display: flex;
-		justify-content: center;
+		flex-wrap: wrap;
 		align-items: center;
+		padding: 50px;
 	}
 }
